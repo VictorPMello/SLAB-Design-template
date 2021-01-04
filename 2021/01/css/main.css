@@ -162,3 +162,38 @@ button > .fa-arrow-right{
 }
 
 /*****/
+
+/** Estilos da div.box-more **/
+
+.box-more{
+    width: 80%;
+    background-color: rgba(240, 99, 184,0.15);
+    border-radius: 30px;
+    margin: 180px auto;
+    position: relative;
+}
+
+
+
+.box-more-text{
+    width: 45%;
+    position: absolute;
+    top: 140px;
+    right: 50px;
+}
+
+.box-more-text h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #212353;
+    margin-bottom: 50px;
+}
+
+.box-more-text p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #4B5D68;
+}
+
+/*****/
