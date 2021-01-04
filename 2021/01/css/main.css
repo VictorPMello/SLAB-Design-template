@@ -18,7 +18,6 @@ body{
 }
 
 /** Estilos do botão **/
-
 .btn1{
     width: 210px;
     height: 60px;
@@ -26,11 +25,8 @@ body{
     cursor: pointer;
     background: none;
 }
-
 /*****/
-
 /** Estilos do nav **/
-
 nav.desktop{
     display: flex;
     width: 100%;
@@ -107,11 +103,8 @@ button > .fa-arrow-right{
     top: 6px;
     left: 14px;
 }
-
 /*****/
-
 /** Estilos do about-container **/
-
 .about-container{
     margin: 80px 0;
     position: relative;
@@ -160,11 +153,8 @@ button > .fa-arrow-right{
 
    
 }
-
 /*****/
-
 /** Estilos da div.box-more **/
-
 .box-more{
     width: 80%;
     background-color: rgba(240, 99, 184,0.15);
@@ -172,8 +162,6 @@ button > .fa-arrow-right{
     margin: 180px auto;
     position: relative;
 }
-
-
 
 .box-more-text{
     width: 45%;
@@ -195,5 +183,43 @@ button > .fa-arrow-right{
     line-height: 25px;
     color: #4B5D68;
 }
+/*****/
+/** Estilos da .features **/
+.features-text{
+    margin: 0 auto;
+    width: 700px;
+    max-width: 1400px;
+}
 
+.features-text h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    list-style: 40px;
+    color: #212353;
+    margin: 30px 0;
+}
+
+.features-text p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.features-box{
+    margin: 50px 0;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.features-content{
+    margin: 30px 0;
+    position: relative;
+    width: 442px;
+    height: 358px;
+    background-image: url(../images/quadrado1.svg);
+    background-size: 100% 100%;
+}
 /*****/
