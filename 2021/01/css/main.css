@@ -203,6 +203,8 @@ nav button:hover{
     text-align: center;
     font-size: 18px;
     line-height: 30px;
+    width: 595px;
+    margin: 0 auto;
 }
 
 .features-box{
@@ -214,27 +216,28 @@ nav button:hover{
 }
 
 .features-content{
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 120px;
     position: relative;
     width: 442px;
     height: 358px;
-    background-image: url(../images/quadrado1.svg);
     background-size: 100% 100%;
 }
 
 .features-content img{
+    z-index: 2;
     position: absolute;
     top: 80px;
     right: 310px;
 }
 
 .features-text{
+    z-index: 1;
     max-width: 250px;
     position: absolute;
     top: 50%;
     left: 30px;
     transform: translate(50%,-50%);
-    
 }
 
 .features-text h2{
@@ -251,6 +254,7 @@ nav button:hover{
 }
 
 .features-text button{
+    width: 140px;
     border: none;
     font-size: 16px;
     line-height: 16px;
@@ -261,5 +265,175 @@ nav button:hover{
 
 .features-text button > i.fa-arrow-right{
     color: #9C69E2;
+}
+/*****/
+/** Posicionamento dos vetores **/
+img.vetor1{
+    z-index: -1;
+    position: absolute;
+    top: -86px;
+    left: 40px;
+}
+
+img.vetor2{
+    z-index: -1;
+    position: absolute;
+    top: -9px;
+    left: 130px;
+}
+
+img.vetor3{
+    z-index: -1;
+    position: absolute;
+    top: 125px;
+    left: 42px;
+}
+
+img.vetor4{
+    z-index: -1;
+    position: absolute;
+    top: -42px;
+    left: 170px;
+}
+
+img.vetor5{
+    z-index: -1;
+    position: absolute;
+    top: -16px;
+    left: -122px;
+}
+
+img.vetor6{
+    z-index: -1;
+    position: absolute;
+    top: 237px;
+    left: 193px;
+}
+/*****/
+/** Estilos da .testimonials **/
+.testimonials{
+    position: relative;
+    width: 100%;
+    height: 640px;
+    background-color: #9c69e2;
+    border-radius: 60px;
+}
+
+.testimonials h1{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    color: white;
+}
+
+.testimonials-box{
+    display: inline-block;
+    width: 750px;
+    height: 350px;
+    position: absolute;
+    top: 180px;
+    left: 110px;
+
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 20px 0 rgba(94, 42, 167, 0.3);
+}
+
+.testimonials-content{
+    position: absolute;
+    top: 55px;
+    left: 50px;
+    max-width: 660px;
+    min-width: 550px;
+    height: 250px;
+}
+
+.testimonials-content img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 45px;
+}
+
+.testimonials-text{
+    position: absolute;
+    top: 50%;
+    right: 185px;
+    transform: translate(50%,-50%);
+    width: 520px;
+    height: 80%;
+}
+
+.testimonials-text h2{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 900;
+    color: #212353;
+}
+
+.testimonials-text a{
+    position: absolute;
+    top: 20px;
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    text-decoration: none;
+    color: #9C69E2;
+}
+
+.testimonials-text p{
+    position: absolute;
+    top: 60px;
+
+    font-size: 18px;
+    line-height: 30px;
+    color: #4B5D68;
+}
+
+.testimonials-scroll{
+    position: absolute;
+    top: 565px;
+    left: 110px;
+    display: flex;
+    width: 850px;
+    
+}
+
+.testimonials-scroll-dots ul{
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+}
+
+.testimonials-scroll-dots ul li span{
+    display: block;
+    margin-right: 10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.testimonials-scroll-arrow{
+    position: absolute;
+    top: -15px;
+    right: 0;  
+}
+
+.testimonials-scroll-arrow i{
+    color: white;
+    font-size: 30px; 
+    padding: 0 5px;
+    cursor: pointer;
 }
 /*****/
