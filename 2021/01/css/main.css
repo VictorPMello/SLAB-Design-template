@@ -34,6 +34,23 @@ button > i.fa-arrow-right{
 
 }
 /*****/
+/** Estilos do circle/rectangle **/
+div.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #9C69E2;
+    margin: 45px 10px 0 10px;
+}
+
+div.rectangle{
+    width: 20px;
+    height: 35px;
+    border-radius: 10px;
+    background: #F063B8;
+    margin: 30px 150px 0 0;
+}
+/*****/
 /** Estilos do nav **/
 nav.desktop{
     display: flex;
@@ -51,22 +68,6 @@ nav div.menu-image{
     position: absolute;
     left: 0;
     top: -8px;
-}
-
-nav div.circle{
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
-    background-color: #9C69E2;
-    margin: 45px 10px 0 10px;
-}
-
-nav div.rectangle{
-    width: 20px;
-    height: 35px;
-    border-radius: 10px;
-    background: #F063B8;
-    margin: 30px 150px 0 0;
 }
 
 nav ul{
@@ -435,5 +436,102 @@ img.vetor6{
     font-size: 30px; 
     padding: 0 5px;
     cursor: pointer;
+}
+/*****/
+/** Estilos da .coments **/
+.contacts{
+    margin-top: 140px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.contacts1{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contacts1 h1{
+    font-size: 40px;
+    line-height: 40px;
+    color: #212353;
+}
+
+.contacts1 p{
+    font-size: 18px;
+    line-height: 20px;
+    color: #4B5D68;
+    margin-top: 30px;
+}
+
+.contacts1 button{
+    border: none;
+    position: absolute;
+    top: 24px;
+}
+
+.contacts1 button:nth-of-type(1){
+    left: 640px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    background-color: #F063B8;
+    transition: 0.2s;
+}
+
+.contacts1 button:nth-of-type(1):hover{
+    background-color: rgba(214, 19, 136, 0.8);
+}
+
+.contacts1 button:nth-of-type(2){
+    left: 890px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.5);
+    transition: 0.2s;
+}
+
+.contacts1 button:nth-of-type(2):hover{
+    background-color: rgba(200, 200, 200, 0.3);
+}
+
+.contacts2{
+    position: relative;
+    margin: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: rgba(200, 200, 200, 0.3);
+    text-align: center;
+}
+
+.contacts2 div.menu-image{
+    display: flex;
+    position: absolute;
+    left: -13px;
+    top: -39px;
+}
+
+.contacts2-container h1{
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #212353;
+    margin-bottom: 50px;
+}
+
+.contacts2-container p{
+    text-align: left;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #212353;
+}
+
+.contacts2-container >  p.weight{
+    font-weight: 500;
+    margin-bottom: 10px;
 }
 /*****/
