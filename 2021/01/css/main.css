@@ -470,7 +470,7 @@ img.vetor6{
 }
 
 .contacts1 button:nth-of-type(1){
-    left: 640px;
+    left: 740px;
     color: white;
     font-weight: 900;
     font-size: 18px;
@@ -485,7 +485,7 @@ img.vetor6{
 }
 
 .contacts1 button:nth-of-type(2){
-    left: 890px;
+    left: 990px;
     font-weight: 900;
     font-size: 16px;
     line-height: 20px;
@@ -502,7 +502,6 @@ img.vetor6{
     margin: 50px 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color: rgba(200, 200, 200, 0.3);
     text-align: center;
 }
 
@@ -533,5 +532,85 @@ img.vetor6{
 .contacts2-container >  p.weight{
     font-weight: 500;
     margin-bottom: 10px;
+}
+
+.contacts2-container h2{
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 20px;
+    color: #212353;
+    margin-bottom: 50px;
+    padding-top: 8px;
+}
+
+.contacts2-container ul{
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.contacts2-container ul li{
+    padding-bottom: 25px;
+}
+
+.contacts2-container ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: #212353;
+}
+
+.contacts2-container a.social-media{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.contacts2-container .fab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: #ccc;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.contacts2-container .fab:hover{
+    background-color:rgb(63, 62, 62);
+}
+/*****/
+/** Estilos do footer **/
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 2%;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #212353;
+}
+
+footer button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(176, 143, 223, 0.5);
+    cursor: pointer;
+    color: rgb(138, 74, 228);
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+footer button:hover{
+    background-color: rgb(141, 79, 228);
+    color: rgb(239, 234, 245);
 }
 /*****/
