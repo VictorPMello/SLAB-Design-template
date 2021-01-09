@@ -152,6 +152,8 @@ nav button:hover{
     position: absolute;
     right: 10px;
     top: 50px;
+    width: 885px;
+    height: 468px;
 }
 /*****/
 /** Estilos da div.box-more **/
@@ -354,11 +356,12 @@ img.vetor6{
 
 .testimonials-content img{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -30px;
+    left: -110px;
     width: 90px;
     height: 90px;
     border-radius: 45px;
+    border: 1px solid black;
 }
 
 .testimonials-text{
@@ -584,6 +587,8 @@ img.vetor6{
 /*****/
 /** Estilos do footer **/
 footer{
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -612,5 +617,421 @@ footer button{
 footer button:hover{
     background-color: rgb(141, 79, 228);
     color: rgb(239, 234, 245);
+}
+/*****/
+
+/** Estilos de media 1280px **/
+@media screen and (max-width: 1280px){    
+    .text-about h1{
+        line-height: 68px;
+        font-size: 60px;
+    }
+
+    .about-container img{
+        width: 785px;
+        height: 368px;
+    }
+
+    .box-more{
+        height: 450px;
+    }
+
+    .box-more img{
+        width: 377px;
+        height: 404px;
+    }
+ 
+    .box-more-text{
+        top: 60px;
+    }
+
+    .features-content{
+        width: 382px;
+        height: 298px;
+    }
+
+    .features-content img{
+        top: 60px;
+        right: 250px;
+        width: 201px;
+        height: 145px;
+    }
+
+    .features-text{
+        max-width: 230px;
+        top: 50%;
+        left: 20px;
+        transform: translate(50%,-50%);
+    }
+
+    .features-text h2{
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .features-text p{
+        line-height: 20px;
+        padding: 0 2% 25px 2%;
+    }
+
+    img.vetor1{
+        top: -45px;
+        left: 26px;
+    }
+    
+    img.vetor2{
+        top: -4px;
+        left: 30px;
+        height: 40px;
+    }
+    
+    img.vetor3{
+        top: 110px;
+        left: 35px;
+        height: 128px;
+    }
+    
+    img.vetor4{
+        top: -36px;
+        left: 75px;
+        height: 55px;
+    }
+    
+    img.vetor5{
+        top: 20px;
+        left: -94px;
+    }
+    
+    img.vetor6{
+        top: 200px;
+        left: 90px;
+        height: 45px;
+    }
+
+    .testimonials-scroll-arrow{
+        position: absolute;
+        top: -15px;
+        right: 60px;  
+    }
+    
+    .contacts1 button:nth-of-type(1){
+        left: 680px;
+    }
+    
+    .contacts1 button:nth-of-type(2){
+        left: 920px;
+    }
+}
+/*****/
+/** Estilos de media 1180px **/
+@media screen and (max-width: 1180px){
+    .box-more{
+        margin: 50px 0;
+        width: 100%;
+        height: 700px;
+    }
+    
+    .box-more-text{
+        width: 90%;
+        position: initial;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .box-more img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .contacts1 button:nth-of-type(1){
+        left: 600px;
+    }
+    
+    .contacts1 button:nth-of-type(2){
+        left: 840px;
+    }
+    
+    .contacts2 div.menu-image{
+        display: none;
+    }
+
+    .contacts2-container h1{
+        text-align: start;
+    }
+
+    .about-container img{
+        width: 685px;
+        height: 268px;
+    }
+
+    .contacts1 button:nth-of-type(1){
+        left: 580px;
+    }
+    
+    .contacts1 button:nth-of-type(2){
+        left: 800px;
+    }
+}
+/*****/
+/** Estilos de media 980px **/
+@media screen and (max-width: 980px){
+    div.circle{
+        display: none;
+    }
+    
+    div.rectangle{
+        display: none;
+    }
+
+    nav.desktop{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    
+    nav ul{
+        margin: 0 auto;
+    }
+
+    nav ul li{
+        padding: 0 15px;
+        float: left;
+    }
+    
+    .text-about{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .text-about p{
+        margin: 40px auto;
+    }
+    
+    .about-container img{
+        position: initial;
+        width: 485px;
+        height: 268px;
+    }
+
+    .text-about button{
+        display: block;
+        margin: 20px auto;
+    }
+
+    .box-more{
+        margin: 50px 0;
+        width: 100%;
+        height: 700px;
+    }
+    
+    .box-more-text{
+        width: 90%;
+        position: initial;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .box-more img{
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .features-box{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr ;
+    }
+    
+    .features-content{  
+        margin: 30px 0;
+    }
+    
+    .testimonials{
+        height: 540px;
+    }
+    
+    .testimonials h1{
+        position: initial;
+        text-align: center;
+        padding-top: 20px;
+    }
+    
+    .testimonials-box{
+        display: block;
+        width: 80%;
+        position: initial;
+        margin: 40px auto;
+    }
+    
+    .testimonials-content{
+        position: initial;
+    }
+    
+    .testimonials-text{
+        position: initial;
+        width: 100%;
+        height: 100%;
+        transform: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .testimonials-content img{
+        position: initial;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .testimonials-text h2{
+        position: initial;
+        display: inline;
+        font-size: 30px;
+    }
+    
+    .testimonials-text a{
+        position: initial;
+        display: inline;
+        font-size: 15px;
+    }
+    
+    .testimonials-text p{
+        line-height: 40px;
+        font-size: 25px;
+        padding: 40px 2%;
+        position: initial;
+        display: block;
+    }
+    
+    .testimonials-scroll{
+        position: initial;
+        display: flex;
+        max-width: 500px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .testimonials-scroll-arrow{
+        position: initial; 
+    }
+
+    .contacts{
+        margin: 40px auto;
+        text-align: center;
+    }
+    
+    .contacts1 button{
+        border: none;
+        position: initial;
+        margin: 30px 20px;
+    }
+  
+    .contacts2{
+        position: initial;
+        margin: 50px 0;
+        display: block;
+        text-align: center;
+    }
+
+    .w1{
+        width: 48%;
+        display: inline-block;
+    }
+
+    .w2{
+        width: 48%;
+        display: inline-block;
+    }
+
+    .w3{
+        width: 98%;
+        margin: 20px 0;
+    }
+
+    .w3 > ul {
+        display: flex;
+    }
+
+    .w3 > ul li {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .contacts2-container h1{
+        text-align:center;
+    }
+    
+    .contacts2-container p{
+        text-align: center;
+    }
+    
+    .contacts2-container ul li{
+        padding-bottom: 15px;
+    }
+    
+    .contacts2-container .fab{
+        width: 75px;
+        height: 75px;
+        font-size: 30px;
+    }
+}
+/*****/
+/** Estilos de media 720px **/
+@media screen and (max-width: 720px){
+    nav.desktop{
+        display: none;
+    }
+    
+    nav.mobile{
+        display: block;
+        width: 100%;
+    }
+    
+    nav ul li{
+        display: none;
+        width: 100%;
+        float: none;
+    }
+    
+    nav ul li a{
+        display: block;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    nav button{
+        display: block;
+        cursor: pointer;
+        border: none;
+        margin-top: 18px;
+        position: absolute;
+        right: 0;
+        box-shadow: 0 5px 5px 0 rgba(75, 93, 104, 0.2) ;
+    
+        font-weight: 800;
+        font-size: 16px;
+        transition: 0.2s;
+    }
+
+    .features-title{
+        margin: 0 auto;
+        width: 700px;
+        max-width: 1400px;
+    }
+    
+    .features-title h1{
+        text-align: center;
+        font-weight: bold;
+        font-size: 40px;
+        list-style: 40px;
+        color: #212353;
+        margin: 30px 0;
+    }
+    
+    .features-title p{
+        text-align: center;
+        font-size: 18px;
+        line-height: 30px;
+        width: 595px;
+        margin: 0 auto;
+    }
 }
 /*****/
