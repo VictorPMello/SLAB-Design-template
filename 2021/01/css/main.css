@@ -217,7 +217,7 @@ nav button:hover{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-
+/* Consertar o background-image */
 .features-content{
     margin-top: 30px;
     margin-bottom: 120px;
@@ -226,7 +226,8 @@ nav button:hover{
     height: 358px;
     background-size: 100% 100%;
 }
-
+/* Colocar sub-class em cada div */ 
+/*****/
 .features-content img{
     z-index: 2;
     position: absolute;
@@ -983,19 +984,7 @@ footer button:hover{
     nav.mobile{
         display: block;
         width: 100%;
-    }
-    
-    nav ul li{
-        display: none;
-        width: 100%;
-        float: none;
-    }
-    
-    nav ul li a{
-        display: block;
-        text-align: center;
-        font-size: 18px;
-    }
+    }  
     
     nav button{
         display: block;
@@ -1011,27 +1000,225 @@ footer button:hover{
         transition: 0.2s;
     }
 
-    .features-title{
-        margin: 0 auto;
-        width: 700px;
-        max-width: 1400px;
+    nav ul{
+        display: block;
+        text-align: center;
+        width: 100%;
     }
     
-    .features-title h1{
-        text-align: center;
-        font-weight: bold;
-        font-size: 40px;
-        list-style: 40px;
-        color: #212353;
-        margin: 30px 0;
+    nav ul li{
+        border-bottom: 1px solid #212353;
+        padding: 20px 2%;
+        float: none;
+    }
+    
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    /** Terminar o menu **/
+
+    .about-container{
+        margin: 80px 0;
+        position: relative;
+    }
+    
+    .text-about{
+        width: 95%;
+    }
+    
+    .text-about p{
+        max-width: none;
+        width: 95%;
+    }
+    
+    .text-about button{
+        display: block;
+        border: none;
+        position: none;
+        min-width: 200px;
+        width: 95%;
+    }
+    
+    .about-container img{
+        position: none;
+        display: block;
+        margin: 0 auto;
+        width: 98%;
+        height: 268px;
+    }
+
+    .box-more{
+        width: 95%;
+        position: none;
+        display: block;
+        height: 100%;
+        margin: 0 auto;
+    }
+    
+    .box-more-text{
+        width: 80%;
+        position: none;
+    }
+    
+    .box-more-text p{
+        margin-bottom: 30px;
+    }
+    
+    .features-title{
+        margin: 0 auto;
+        width: 95%;
+        max-width: none;
+        display: inline-block;
     }
     
     .features-title p{
+        width: 95%;
+    }
+    
+    .features-box{
+        margin: 30px 0;
         text-align: center;
-        font-size: 18px;
-        line-height: 30px;
-        width: 595px;
+        display: block;
+    }
+    /** Tirar o background-image **/
+    .features-content{
+        position: initial;
+        margin-bottom: 80px;
+        width: 98%;
+        height: 358px;
+    }
+    /******/
+    .features-content img{
+        position: initial;
+        display: block;
         margin: 0 auto;
+    }
+    
+    .features-text{
+        max-width: none;
+        position: initial;
+        transform: none;
+        margin: 30px 0;
+    }
+    
+    .features-text p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    .features-text button{
+        display: inline-block;
+        
+        margin-top: 30px;
+    }
+
+    img.vetor1{
+        position: none;
+        display: none;
+    }
+    
+    img.vetor2{
+        position: none;
+        display: none;
+    }
+    
+    img.vetor3{
+        position: none;
+        display: none;
+    }
+    
+    img.vetor4{
+        position: none;
+        display: none;
+    }
+    
+    img.vetor5{
+        position: none;
+        display: none;
+    }
+    
+    img.vetor6{
+        position: none;
+        display: none;
+    }
+
+    .testimonials{
+        position: initial;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+    .testimonials h1{
+        position: initial;
+    }
+    
+    .testimonials-box{
+        display: inline-block;
+        width: 98%;
+        height: 100%;
+        position: initial;
+    }
+    
+    .testimonials-content{
+        position: initial;
+        display: inline;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        min-width: none;
+    }
+    
+    .testimonials-content img{
+        position: initial;
+        display: block;
+        margin: 10px auto;
+    }
+    
+    .testimonials-text{
+        position: initial;
+        transform: none;
+        display: block;
+    }
+    
+    .testimonials-text h2{
+        position: initial;
+        display: inline-block;
+        margin: 20px 10px;
+    }
+    
+    .testimonials-text p{
+        position: initial;
+        line-height: 35px;
+    }
+    
+    .testimonials-scroll{
+        position: none;
+        display: block;
+        width: 98%;
+        
+    }
+    
+    .testimonials-scroll-dots ul{
+        display: inline-flex;
+        padding-left: 12px;
+    }
+    
+    .testimonials-scroll-arrow{
+        position: none;
+        display: inline-block;
+        margin: 20px auto; 
+    }
+
+    .contacts1 button{
+        display: block;
+        border: none;
+        position: none;
+        min-width: 200px;
+        width: 95%;
     }
 }
 /*****/
