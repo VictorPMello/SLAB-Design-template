@@ -333,10 +333,11 @@ img.vetor6{
 /** Estilos da .testimonials **/
 .testimonials{
     position: relative;
-    width: 100%;
+    width: 85%;
     height: 640px;
     background-color: #9c69e2;
     border-radius: 60px;
+    margin: 0 auto;
 }
 
 .testimonials h1{
@@ -456,6 +457,11 @@ img.vetor6{
     font-size: 30px; 
     padding: 0 5px;
     cursor: pointer;
+    transition: 0.2s;
+}
+
+.testimonials-scroll-arrow i:hover{
+    color: rgba(118, 42, 148, 0.795);
 }
 /*****/
 /** Estilos da .coments **/
@@ -1003,23 +1009,23 @@ footer button:hover{
         width: 100%;
     }
     
-    nav.mobile button{
+    nav.mobile i{
+        position: absolute;
         display: block;
         cursor: pointer;
         z-index: 10;
         top: 0;
         left: 0;
-        background-color: white;
+        background-color: none;
         box-shadow: none;
         font-size: 30px;
-        padding: 0 2%;
     }
 
     nav ul{
         z-index: 9;
         background-color: white;
         position: absolute;
-        display: block;
+        display: none;
         text-align: center;
         width: 100%;
     }
@@ -1029,12 +1035,14 @@ footer button:hover{
         padding: 20px 2%;
         float: none;
     }
+
+    nav ul li:last-child{
+        border-bottom: none;
+    }
     
     nav ul li a{
         font-size: 20px;
     }
-
-    /** Colocar o JavaScript**/
 
     .about-container{
         margin: 20px 0 80px;
